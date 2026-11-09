@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-light.svg" alt="Nissuoh, founder and lead architect at SAMI, building SAMI and Skipper, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes. One veto sends the work back." width="100%">
+  <img src="assets/hero-light.svg" alt="Nissuoh, founder of SAMI and creator of Skipper, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes. One veto sends the work back." width="100%">
 </picture>
 
 </div>

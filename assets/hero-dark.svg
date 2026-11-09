@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="308" viewBox="0 0 1280 308" role="img" aria-labelledby="t d">
   <title id="t">Nissuoh</title>
-  <desc id="d">Nissuoh, Founder and Lead Architect at SAMI, building SAMI and Skipper, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes, and a line loops back to the first seat. One veto sends the work back.</desc>
+  <desc id="d">Nissuoh, founder of SAMI and creator of Skipper, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes, and a line loops back to the first seat. One veto sends the work back.</desc>
   <style>
     .bg{fill:#0D2A36}
     .edge{fill:none;stroke:#17404F;stroke-width:2}
@@ -42,8 +42,8 @@
   <rect class="edge" x="1" y="1" width="1278" height="306" rx="19"/>
 
   <text class="serif name" x="64" y="108">Nissuoh</text>
-  <text class="sans role" x="64" y="148">Founder &amp; Lead Architect @ <tspan class="hl">SAMI</tspan></text>
-  <text class="mono now" x="64" y="182">BUILDING SAMI AND SKIPPER · FRANKFURT, GERMANY</text>
+  <text class="sans role" x="64" y="148">Founder @ <tspan class="hl">SAMI</tspan> · Creator @ <tspan class="hl">Skipper</tspan></text>
+  <text class="mono now" x="64" y="182">FRANKFURT, GERMANY</text>
   <text class="serif thesis" x="1216" y="72" text-anchor="end">AI can write code.</text>
   <text class="serif thesis" x="1216" y="108" text-anchor="end">The hard part is trusting it.</text>
 
