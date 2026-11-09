@@ -40,7 +40,7 @@ I'm also studying AI Engineering at Masterschool.
 **Status:** in development. The repository opens with the first release.
 
 [![Discord: join](https://img.shields.io/badge/Discord-join-0B6B60?style=flat-square&logo=discord&logoColor=white&labelColor=17404F)](https://discord.gg/9kggrpKCvQ)
-[![X: @Skipper_OS](https://img.shields.io/badge/X-@Skipper__OS-0B6B60?style=flat-square&logo=x&logoColor=white&labelColor=17404F)](https://x.com/Skipper_OS)
+[![: @Skipper_OS](https://img.shields.io/badge/X-@Skipper__OS-0B6B60?style=flat-square&logo=x&logoColor=white&labelColor=17404F)](https://x.com/Skipper_OS)
 
 </td>
 <td width="50%" valign="top">
