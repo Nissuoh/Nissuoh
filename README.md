@@ -67,6 +67,7 @@ I'm also studying AI Engineering at Masterschool.
 **Status:** in development.
 
 [![SAMI: sami-agent.com](https://img.shields.io/badge/SAMI-sami--agent.com-0B6B60?style=flat-square&labelColor=17404F)](https://sami-agent.com)
+[![X: @SAMI_Agent_](https://img.shields.io/badge/X-@SAMI__Agent__-0B6B60?style=flat-square&logo=x&logoColor=white&labelColor=17404F)](https://x.com/SAMI_Agent_)
 
 </td>
 </tr>
