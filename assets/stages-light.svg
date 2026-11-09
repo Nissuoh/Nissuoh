@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="256" viewBox="0 0 1280 256" role="img" aria-labelledby="t d">
+  <title id="t">Five stages, each ending in a vote</title>
+  <desc id="d">Five stages in a row: Understand and Contract, Plan, Build, Harden, Acceptance. Each stage ends in an equal-weight yes or no vote by up to ten models, shown as ten dots. In the Build stage one dot is a veto, and an arrow loops back into the stage: one veto sends the work back.</desc>
+  <style>
+    .bg{fill:#E9F2F1}
+    .edge{fill:none;stroke:#BCD3D1;stroke-width:2}
+    .card{fill:#F7FBFA;stroke:#B5CFCD;stroke-width:1.5}
+    .sans{font-family:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif}
+    .mono{font-family:ui-monospace,"Cascadia Mono","SF Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace}
+    .stage{font-size:24px;font-weight:600;fill:#0D2A36}
+    .note{font-size:21px;fill:#3A5D69}
+    .key{font-size:20px;fill:#3A5D69}
+    .keyveto{font-size:20px;fill:#C2185B}
+    .flow{fill:none;stroke:#3A5D69;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .y{fill:#0B6B60}
+    .v{fill:none;stroke:#C2185B;stroke-width:2.2}
+    .vx{fill:none;stroke:#C2185B;stroke-width:2.2;stroke-linecap:round}
+    .back{fill:none;stroke:#C2185B;stroke-width:2.5;stroke-linecap:round}
+    .tip{fill:#C2185B}
+  </style>
+
+  <rect class="bg" width="1280" height="256" rx="20"/>
+  <rect class="edge" x="1" y="1" width="1278" height="254" rx="19"/>
+
+  <!-- Stage cards -->
+  <rect class="card" x="48" y="30" width="196" height="124" rx="14"/>
+  <rect class="card" x="295" y="30" width="196" height="124" rx="14"/>
+  <rect class="card" x="542" y="30" width="196" height="124" rx="14"/>
+  <rect class="card" x="789" y="30" width="196" height="124" rx="14"/>
+  <rect class="card" x="1036" y="30" width="196" height="124" rx="14"/>
+
+  <text class="sans stage" x="68" y="76">Understand</text>
+  <text class="sans stage" x="68" y="104">&amp; Contract</text>
+  <text class="sans stage" x="315" y="76">Plan</text>
+  <text class="sans stage" x="562" y="76">Build</text>
+  <text class="sans stage" x="809" y="76">Harden</text>
+  <text class="sans stage" x="1056" y="76">Acceptance</text>
+
+  <!-- Stage to stage -->
+  <path class="flow" d="M252 67 H287 M280 60 L287 67 L280 74"/>
+  <path class="flow" d="M499 67 H534 M527 60 L534 67 L527 74"/>
+  <path class="flow" d="M746 67 H781 M774 60 L781 67 L774 74"/>
+  <path class="flow" d="M993 67 H1028 M1021 60 L1028 67 L1021 74"/>
+
+  <!-- Votes: ten dots per stage, nine yes and one veto in Build -->
+  <g>
+    <circle class="y" cx="69.5" cy="128" r="5.5"/>
+    <circle class="y" cx="86.5" cy="128" r="5.5"/>
+    <circle class="y" cx="103.5" cy="128" r="5.5"/>
+    <circle class="y" cx="120.5" cy="128" r="5.5"/>
+    <circle class="y" cx="137.5" cy="128" r="5.5"/>
+    <circle class="y" cx="154.5" cy="128" r="5.5"/>
+    <circle class="y" cx="171.5" cy="128" r="5.5"/>
+    <circle class="y" cx="188.5" cy="128" r="5.5"/>
+    <circle class="y" cx="205.5" cy="128" r="5.5"/>
+    <circle class="y" cx="222.5" cy="128" r="5.5"/>
+  </g>
+  <g>
+    <circle class="y" cx="316.5" cy="128" r="5.5"/>
+    <circle class="y" cx="333.5" cy="128" r="5.5"/>
+    <circle class="y" cx="350.5" cy="128" r="5.5"/>
+    <circle class="y" cx="367.5" cy="128" r="5.5"/>
+    <circle class="y" cx="384.5" cy="128" r="5.5"/>
+    <circle class="y" cx="401.5" cy="128" r="5.5"/>
+    <circle class="y" cx="418.5" cy="128" r="5.5"/>
+    <circle class="y" cx="435.5" cy="128" r="5.5"/>
+    <circle class="y" cx="452.5" cy="128" r="5.5"/>
+    <circle class="y" cx="469.5" cy="128" r="5.5"/>
+  </g>
+  <g>
+    <circle class="y" cx="810.5" cy="128" r="5.5"/>
+    <circle class="y" cx="827.5" cy="128" r="5.5"/>
+    <circle class="y" cx="844.5" cy="128" r="5.5"/>
+    <circle class="y" cx="861.5" cy="128" r="5.5"/>
+    <circle class="y" cx="878.5" cy="128" r="5.5"/>
+    <circle class="y" cx="895.5" cy="128" r="5.5"/>
+    <circle class="y" cx="912.5" cy="128" r="5.5"/>
+    <circle class="y" cx="929.5" cy="128" r="5.5"/>
+    <circle class="y" cx="946.5" cy="128" r="5.5"/>
+    <circle class="y" cx="963.5" cy="128" r="5.5"/>
+  </g>
+  <g>
+    <circle class="y" cx="1057.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1074.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1091.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1108.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1125.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1142.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1159.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1176.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1193.5" cy="128" r="5.5"/>
+    <circle class="y" cx="1210.5" cy="128" r="5.5"/>
+  </g>
+  <g>
+    <circle class="y" cx="563.5" cy="128" r="5.5"/>
+    <circle class="y" cx="580.5" cy="128" r="5.5"/>
+    <circle class="y" cx="597.5" cy="128" r="5.5"/>
+    <circle class="y" cx="631.5" cy="128" r="5.5"/>
+    <circle class="y" cx="648.5" cy="128" r="5.5"/>
+    <circle class="y" cx="665.5" cy="128" r="5.5"/>
+    <circle class="y" cx="682.5" cy="128" r="5.5"/>
+    <circle class="y" cx="699.5" cy="128" r="5.5"/>
+    <circle class="y" cx="716.5" cy="128" r="5.5"/>
+    <circle class="v" cx="614.5" cy="128" r="6"/>
+    <path class="vx" d="M611.7 125.2 L617.3 130.8 M611.7 130.8 L617.3 125.2"/>
+  </g>
+
+  <!-- The veto sends the work back into the stage -->
+  <path class="back" d="M614.5 137 V162 Q614.5 170 606.5 170 H534 Q526 170 526 162 V116 Q526 108 534 108"/>
+  <path class="tip" d="M541 108 L533 103.5 L533 112.5 Z"/>
+
+  <!-- Key -->
+  <circle class="y" cx="60" cy="220" r="5.5"/>
+  <text class="mono key" x="76" y="226">yes</text>
+  <circle class="v" cx="136" cy="220" r="6"/>
+  <path class="vx" d="M133.2 217.2 L138.8 222.8 M133.2 222.8 L138.8 217.2"/>
+  <text class="mono keyveto" x="152" y="226">veto: back to the stage</text>
+  <text class="sans note" x="1232" y="226" text-anchor="end">Every stage ends in an equal-weight yes/no vote.</text>
+</svg>
