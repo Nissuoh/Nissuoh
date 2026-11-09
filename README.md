@@ -31,6 +31,13 @@ I'm also studying AI Engineering at Masterschool.
 
 SAMI is in early access: [sami-agent.com](https://sami-agent.com).
 
+## Also building: Skipper
+
+An open-source Windows desktop app that runs a team of real Claude Code sessions as visible roles: every role is its own terminal, one shared board, resource limits, and a person gives the final approval. Written in Rust (egui), MIT licence. In development, not released yet; the repository opens with the first release.
+
+<a href="https://discord.gg/9kggrpKCvQ"><img alt="Skipper on Discord" src="https://img.shields.io/badge/Skipper-Discord-0B6B60?style=flat-square&logo=discord&logoColor=white&labelColor=17404F" height="28"></a>
+<a href="https://x.com/Skipper_OS"><img alt="Skipper on X: @Skipper_OS" src="https://img.shields.io/badge/Skipper-@Skipper__OS-0B6B60?style=flat-square&logo=x&logoColor=white&labelColor=17404F" height="28"></a>
+
 ## Toolbox
 
 **AI**<br>
