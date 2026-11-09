@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="308" viewBox="0 0 1280 308" role="img" aria-labelledby="t d">
   <title id="t">Nissuoh</title>
-  <desc id="d">Nissuoh, Founder and Lead Architect at SAMI, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes, and a line loops back to the first seat. One veto sends the work back.</desc>
+  <desc id="d">Nissuoh, Founder and Lead Architect at SAMI, building SAMI and Skipper, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes, and a line loops back to the first seat. One veto sends the work back.</desc>
   <style>
     .bg{fill:#E9F2F1}
     .edge{fill:none;stroke:#BCD3D1;stroke-width:2}
     .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif}
     .sans{font-family:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif}
     .mono{font-family:ui-monospace,"Cascadia Mono","SF Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace}
-    .eyebrow{font-size:20px;letter-spacing:3.4px;fill:#3A5D69}
     .name{font-size:96px;letter-spacing:-1.5px;fill:#0D2A36}
     .role{font-size:28px;fill:#0D2A36}
     .role .hl{font-weight:700;fill:#0B6B60}
+    .now{font-size:20px;letter-spacing:3.4px;fill:#3A5D69}
     .thesis{font-size:28px;font-style:italic;fill:#3A5D69}
     .ring{fill:none;stroke:#0B6B60;stroke-width:3}
     .dot{fill:#0B6B60}
@@ -38,37 +38,37 @@
     @media (prefers-reduced-motion:reduce){.seat,.ghost,.pulse,.arc,.head,.capg{animation:none}}
   </style>
 
-  <rect class="bg" width="1280" height="300" rx="20"/>
-  <rect class="edge" x="1" y="1" width="1278" height="298" rx="19"/>
+  <rect class="bg" width="1280" height="308" rx="20"/>
+  <rect class="edge" x="1" y="1" width="1278" height="306" rx="19"/>
 
-  <text class="mono eyebrow" x="64" y="44">FRANKFURT, GERMANY</text>
-  <text class="serif name" x="64" y="128">Nissuoh</text>
-  <text class="sans role" x="64" y="166">Founder &amp; Lead Architect @ <tspan class="hl">SAMI</tspan></text>
-  <text class="serif thesis" x="1216" y="92" text-anchor="end">AI can write code.</text>
-  <text class="serif thesis" x="1216" y="128" text-anchor="end">The hard part is trusting it.</text>
+  <text class="serif name" x="64" y="108">Nissuoh</text>
+  <text class="sans role" x="64" y="148">Founder &amp; Lead Architect @ <tspan class="hl">SAMI</tspan></text>
+  <text class="mono now" x="64" y="182">BUILDING SAMI AND SKIPPER · FRANKFURT, GERMANY</text>
+  <text class="serif thesis" x="1216" y="72" text-anchor="end">AI can write code.</text>
+  <text class="serif thesis" x="1216" y="108" text-anchor="end">The hard part is trusting it.</text>
 
   <!-- Council: ten seats. Nine vote yes, one vetoes. -->
-  <g class="seat" style="animation-delay:.25s"><circle class="ring" cx="82" cy="210" r="19"/><circle class="dot" cx="82" cy="210" r="8.5"/></g>
-  <g class="seat" style="animation-delay:.37s"><circle class="ring" cx="206" cy="210" r="19"/><circle class="dot" cx="206" cy="210" r="8.5"/></g>
-  <g class="seat" style="animation-delay:.49s"><circle class="ring" cx="330" cy="210" r="19"/><circle class="dot" cx="330" cy="210" r="8.5"/></g>
-  <g class="seat" style="animation-delay:.61s"><circle class="ring" cx="454" cy="210" r="19"/><circle class="dot" cx="454" cy="210" r="8.5"/></g>
-  <g class="seat" style="animation-delay:.73s"><circle class="ring" cx="578" cy="210" r="19"/><circle class="dot" cx="578" cy="210" r="8.5"/></g>
-  <g class="seat" style="animation-delay:.85s"><circle class="ring" cx="702" cy="210" r="19"/><circle class="dot" cx="702" cy="210" r="8.5"/></g>
+  <g class="seat" style="animation-delay:.25s"><circle class="ring" cx="82" cy="218" r="19"/><circle class="dot" cx="82" cy="218" r="8.5"/></g>
+  <g class="seat" style="animation-delay:.37s"><circle class="ring" cx="206" cy="218" r="19"/><circle class="dot" cx="206" cy="218" r="8.5"/></g>
+  <g class="seat" style="animation-delay:.49s"><circle class="ring" cx="330" cy="218" r="19"/><circle class="dot" cx="330" cy="218" r="8.5"/></g>
+  <g class="seat" style="animation-delay:.61s"><circle class="ring" cx="454" cy="218" r="19"/><circle class="dot" cx="454" cy="218" r="8.5"/></g>
+  <g class="seat" style="animation-delay:.73s"><circle class="ring" cx="578" cy="218" r="19"/><circle class="dot" cx="578" cy="218" r="8.5"/></g>
+  <g class="seat" style="animation-delay:.85s"><circle class="ring" cx="702" cy="218" r="19"/><circle class="dot" cx="702" cy="218" r="8.5"/></g>
 
   <!-- Seat 7: first casts a yes (animation only), then lands the veto. At rest only the veto is shown. -->
-  <g class="ghost"><circle class="ring" cx="826" cy="210" r="19"/><circle class="dot" cx="826" cy="210" r="8.5"/></g>
-  <circle class="pulse" cx="826" cy="210" r="19"/>
-  <g class="seat" style="animation-delay:2s"><circle class="vring" cx="826" cy="210" r="19"/><path class="vx" d="M819 203 L833 217 M819 217 L833 203"/></g>
+  <g class="ghost"><circle class="ring" cx="826" cy="218" r="19"/><circle class="dot" cx="826" cy="218" r="8.5"/></g>
+  <circle class="pulse" cx="826" cy="218" r="19"/>
+  <g class="seat" style="animation-delay:2s"><circle class="vring" cx="826" cy="218" r="19"/><path class="vx" d="M819 211 L833 225 M819 225 L833 211"/></g>
 
-  <g class="seat" style="animation-delay:1.09s"><circle class="ring" cx="950" cy="210" r="19"/><circle class="dot" cx="950" cy="210" r="8.5"/></g>
-  <g class="seat" style="animation-delay:1.21s"><circle class="ring" cx="1074" cy="210" r="19"/><circle class="dot" cx="1074" cy="210" r="8.5"/></g>
-  <g class="seat" style="animation-delay:1.33s"><circle class="ring" cx="1198" cy="210" r="19"/><circle class="dot" cx="1198" cy="210" r="8.5"/></g>
+  <g class="seat" style="animation-delay:1.09s"><circle class="ring" cx="950" cy="218" r="19"/><circle class="dot" cx="950" cy="218" r="8.5"/></g>
+  <g class="seat" style="animation-delay:1.21s"><circle class="ring" cx="1074" cy="218" r="19"/><circle class="dot" cx="1074" cy="218" r="8.5"/></g>
+  <g class="seat" style="animation-delay:1.33s"><circle class="ring" cx="1198" cy="218" r="19"/><circle class="dot" cx="1198" cy="218" r="8.5"/></g>
 
   <!-- The veto sends the work back to the start. -->
-  <path class="arc" pathLength="100" d="M826 235 C826 284 82 284 82 248"/>
-  <path class="head" d="M82 233 L74.5 248 L89.5 248 Z"/>
+  <path class="arc" pathLength="100" d="M826 243 C826 292 82 292 82 256"/>
+  <path class="head" d="M82 241 L74.5 256 L89.5 256 Z"/>
   <g class="capg">
-    <rect class="gap" x="234" y="262" width="440" height="24"/>
-    <text class="mono cap" x="454" y="280" text-anchor="middle">ONE VETO SENDS THE WORK BACK</text>
+    <rect class="gap" x="234" y="270" width="440" height="24"/>
+    <text class="mono cap" x="454" y="288" text-anchor="middle">ONE VETO SENDS THE WORK BACK</text>
   </g>
 </svg>

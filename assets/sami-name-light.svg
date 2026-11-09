@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="80" viewBox="0 0 520 80" role="img" aria-labelledby="t">
+  <title id="t">SAMI, AI council desktop IDE</title>
+  <style>
+    .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif}
+    .mono{font-family:ui-monospace,"Cascadia Mono","SF Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace}
+    .name{font-size:50px;letter-spacing:-.5px;fill:#0D2A36}
+    .sub{font-size:17px;letter-spacing:2.4px;fill:#3A5D69}
+  </style>
+  <text class="serif name" x="2" y="46">SAMI</text>
+  <text class="mono sub" x="3" y="74">AI COUNCIL DESKTOP IDE</text>
+</svg>

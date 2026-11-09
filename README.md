@@ -3,16 +3,76 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-light.svg" alt="Nissuoh, founder and lead architect at SAMI, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes. One veto sends the work back." width="100%">
+  <img src="assets/hero-light.svg" alt="Nissuoh, founder and lead architect at SAMI, building SAMI and Skipper, Frankfurt, Germany. A row of ten council seats: nine vote yes, one vetoes. One veto sends the work back." width="100%">
 </picture>
 
 </div>
 
-I build [SAMI](https://sami-agent.com), a desktop IDE where a council of AI models reviews and votes on every stage before code ships.
-AI models can write code. The hard part is trusting it, so in SAMI the models debate and vote first.
+I'm building two things: **Skipper**, an open-source team app for Claude Code, and [SAMI](https://sami-agent.com), a desktop IDE where a council of AI models votes on every stage before code ships.
+AI models can write code. The hard part is trusting it: in SAMI a council votes, in Skipper a person gives the final approval.
 I'm also studying AI Engineering at Masterschool.
 
-## Now: SAMI
+## Now building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skipper-mark-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/skipper-mark-light.svg">
+  <img src="assets/skipper-mark-light.svg" alt="Skipper logo: an S-shaped route with a blue start dot and a goal dot" width="96" height="96">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skipper-name-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/skipper-name-light.svg">
+  <img src="assets/skipper-name-light.svg" alt="Skipper, team app for Claude Code" width="100%">
+</picture>
+
+**An open-source team app for Claude Code.** It runs a team of real Claude Code sessions as visible roles on one shared board.
+
+- **Roles you can see.** Every role is a real Claude Code session in its own terminal.
+- **One shared board.** Tasks, pages and approvals in one place.
+- **Limits and a final say.** Resource limits per machine and account. A person gives the final approval.
+- **Native and open.** Rust with egui, for Windows, MIT license. Skipper makes no model calls itself.
+
+**Status:** in development. The repository opens with the first release.
+
+[![Discord: join](https://img.shields.io/badge/Discord-join-0B6B60?style=flat-square&logo=discord&logoColor=white&labelColor=17404F)](https://discord.gg/9kggrpKCvQ)
+[![X: @Skipper_OS](https://img.shields.io/badge/X-@Skipper__OS-0B6B60?style=flat-square&logo=x&logoColor=white&labelColor=17404F)](https://x.com/Skipper_OS)
+
+</td>
+<td width="50%" valign="top">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sami-logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sami-logo-light.png">
+  <img src="assets/sami-logo-light.png" alt="SAMI logo: a brain, the left half organic and the right half a circuit board" width="96" height="96">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sami-name-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sami-name-light.svg">
+  <img src="assets/sami-name-light.svg" alt="SAMI, AI council desktop IDE" width="100%">
+</picture>
+
+**A desktop IDE where a council of AI models reviews and votes on every stage before code ships.**
+
+- **Adversarial Consensus.** Up to 10 models from different providers vote at every stage. A single veto sends the work back, and dissent is recorded, not hidden.
+- **Five stages, all replayable.** Every stage, vote and artifact is stored and can be replayed.
+- **Verification gate.** Type checks, linting and tests across six ecosystems, with autonomy levels L1 to L3 and guards against destructive commands.
+- **Built end to end.** 470,000+ lines of original code, including 10,000+ automated tests.
+
+**Status:** in development.
+
+[![SAMI: sami-agent.com](https://img.shields.io/badge/SAMI-sami--agent.com-0B6B60?style=flat-square&labelColor=17404F)](https://sami-agent.com)
+
+</td>
+</tr>
+</table>
+
+**How SAMI works:** five stages, each ending in a council vote.
 
 <div align="center">
 
@@ -23,20 +83,6 @@ I'm also studying AI Engineering at Masterschool.
 </picture>
 
 </div>
-
-- **Adversarial Consensus.** Up to 10 models from different providers debate and vote at every stage. A single veto sends the work back, and dissent is recorded, not hidden.
-- **Five stages, bounded rounds.** Each one ends in an equal-weight yes/no vote. Every stage, vote and artifact is stored and replayable.
-- **Verification gate.** Type checks, linting and tests across six ecosystems. Autonomy levels L1 to L3, with guards against destructive commands.
-- **Built end to end.** 470,000+ lines of original code, including 10,000+ automated tests. A VS Code-based desktop IDE (Electron, TypeScript) with Python/FastAPI, Next.js, Docker, nginx and self-healing ops behind it.
-
-SAMI is in early access: [sami-agent.com](https://sami-agent.com).
-
-## Also building: Skipper
-
-An open-source Windows desktop app that runs a team of real Claude Code sessions as visible roles: every role is its own terminal, one shared board, resource limits, and a person gives the final approval. Written in Rust (egui), MIT licence. In development, not released yet; the repository opens with the first release.
-
-<a href="https://discord.gg/9kggrpKCvQ"><img alt="Skipper on Discord" src="https://img.shields.io/badge/Skipper-Discord-0B6B60?style=flat-square&logo=discord&logoColor=white&labelColor=17404F" height="28"></a>
-<a href="https://x.com/Skipper_OS"><img alt="Skipper on X: @Skipper_OS" src="https://img.shields.io/badge/Skipper-@Skipper__OS-0B6B60?style=flat-square&logo=x&logoColor=white&labelColor=17404F" height="28"></a>
 
 ## Toolbox
 
@@ -58,6 +104,7 @@ An open-source Windows desktop app that runs a team of real Claude Code sessions
 ![Next.js](https://img.shields.io/badge/Next.js-0B6B60?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=17404F)
 ![Electron](https://img.shields.io/badge/Electron-0B6B60?style=flat-square&logo=electron&logoColor=white&labelColor=17404F)
 ![Rust](https://img.shields.io/badge/Rust-0B6B60?style=flat-square&logo=rust&logoColor=white&labelColor=17404F)
+![egui](https://img.shields.io/badge/egui-0B6B60?style=flat-square&labelColor=17404F)
 
 **Infrastructure**<br>
 ![Low-latency systems](https://img.shields.io/badge/Low--latency_systems-0B6B60?style=flat-square&labelColor=17404F)
@@ -85,5 +132,5 @@ Open to exceptional engineers for a CTO-track role, and to investors who want to
 <br>
 
 <div align="center">
-<sub>Frankfurt, Germany. The hero and the diagram are hand-written SVG files in this repository.</sub>
+<sub>Frankfurt, Germany. The hero, the card headers and the diagram are hand-written SVG files in this repository.</sub>
 </div>
